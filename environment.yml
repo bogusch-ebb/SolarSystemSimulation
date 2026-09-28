@@ -3,7 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - numpy
-  - "rebound==3.28.4"
   - matplotlib
   - tqdm
   - ffmpeg
+  - pip
+  - pip:
+    - rebound==3.28.4
